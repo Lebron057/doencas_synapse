@@ -3,6 +3,11 @@
     padding: 0px;
 }
 
+nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 .div_icon_location {
     border-radius: 5px;
 }
