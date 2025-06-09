@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div_icon_location {
+    border-radius: 5px;
+}
+
+.icon_location {
+    width: 35px;
+}
+
+h1 {
+    font-size: bold;
+    color: black;
+    font-size: x-large;
+}
+
+.div_sistema-atv {
+    background-color: #c3fcbe;
+    border-color: rgb(29, 97, 38);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    
+}
+
+.sistema-atv {
+    color: rgb(21 128 61);
+}
+
+.subtitulo {
+    color: rgb(75 85 99);
+}
