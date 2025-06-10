@@ -6,6 +6,7 @@
 nav {
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #ffffff;
 }
 
 .div_icon_location {
@@ -39,4 +40,21 @@ h1 {
 
 .subtitulo {
     color: rgb(75 85 99);
+}
+
+.p-subtitulo {
+    color: rgb(75 85 99);
+    text-align: center;
+    max-width: 700px;
+    font-weight: 500;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #ffffff, #ffb6b6) !important;
+}
+
+.img-grafico-setor {
+    width: 540px;
+    height: 360px;
+    border-radius: 10px;
 }
