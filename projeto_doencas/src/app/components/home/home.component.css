@@ -68,3 +68,13 @@ footer {
     color: #4b5563;
     font-weight: 400
 }
+
+.img-whats {
+    width: 30px;
+    height: 30px;
+}
+
+.link-whats {
+    color: white;
+    text-decoration: none;
+}
