@@ -58,3 +58,13 @@ h1 {
     height: 360px;
     border-radius: 10px;
 }
+
+footer {
+    border-width: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: #e5e7eb;
+    background-color: rgb(246, 244, 255);
+    color: #4b5563;
+    font-weight: 400
+}
