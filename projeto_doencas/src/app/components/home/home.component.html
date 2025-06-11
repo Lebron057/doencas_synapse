@@ -1,4 +1,5 @@
-<nav class="d-flex justify-content-between align-items-center shadow-sm">
+<!--Navbar-->
+<nav class="d-flex justify-content-between align-items-center">
     <div class="d-flex align-items-center ms-5 gap-2">
         <div class="div_icon_location p-1" style="background-color: #2563eb;">
             <img class="icon_location" src="assets\images\location_on.png" alt="">
@@ -14,46 +15,52 @@
         </p>
     </div>
 </nav>
-<section class="pt-5">
-    <div class="d-flex flex-column justify-content-center align-items-center">
-        <h2>Monitore a Saúde da Sua Região</h2>
-        <p class="p-subtitulo mt-2">Receba notificações em tempo real sobre surtos de doenças no seu bairro e mantenha-se informado sobre a situação epidemiológica da sua cidade.</p>
-    </div>
-</section>
-<section class="pt-4 d-flex gap-3 container-fluid align-items-center justify-content-center">
-    
-    <div style="background-color: bisque; border-radius: 10px;" class="d-flex gap-4 p-3 flex-wrap justify-content-center container">
-        <!--gráfico 1-->
-        <div>
-            <img class="img-grafico-setor" src="assets\images\Atendimentos_por_cidade.png" alt="">
-        </div>
-        
-        <!--gráfico 2-->
-        <div>
-            <img class="img-grafico-setor" src="assets\images\Atendimentos_por_cidade.png" alt="">
-        </div>
-        
-        <!--gráfico 3-->
-        <div>
-            <img class="img-grafico-setor" src="assets\images\Números_de_pessoas_por_bairro-gráfico_de_setor.png" alt="">
-        </div>
-        
-        <!--gráfico 4-->
-        <div>
-            <img class="img-grafico-setor" src="assets\images\Números_de_pessoas_por_bairro-gráfico_de_setor.png" alt="">
-        </div>
-    </div>
 
+<div class="pb-5 div-body">
+    <!--Título e subtítulo do body-->
+    <section class="pt-4">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h2 class="fw-bold" style="color: rgb(63, 63, 63);">Monitore a Saúde da Sua Região</h2>
+            <p class="p-subtitulo mt-2">Receba notificações em tempo real sobre surtos de doenças no seu bairro e mantenha-se informado sobre a situação epidemiológica da sua cidade.</p>
+        </div>
+    </section>
     
-</section>
-<section class="d-flex justify-content-center p-5">
-    <div class="btn btn-success d-flex justify-content-center align-items-center py-3 px-5">
-        <img class="img-whats" src="assets\images\whatsapp-logo-png.png" alt="">
-        <a class="link-whats" href="">Quero receber notificações!</a>
-    </div>
-</section>
+    <!--Botão whatsapp-->
+    <section class="d-flex justify-content-center my-4">
+        <div class="div-btn btn btn-success d-flex justify-content-center align-items-center py-2 px-2 gap-3">
+            <img class="img-whats" src="assets\images\whatsapp-logo-png.png" alt="">
+            <a class="link-whats d-flex justify-content-center align-items-center" href="">Quero receber notificações!</a>
+        </div>
+    </section>
+    
+    <!--Secção dos gráficos-->
+    <section class=" d-flex gap-3 container-fluid align-items-center justify-content-center">
+        <div style="background-color: bisque; border-radius: 10px;" class="d-flex gap-4 p-3 flex-wrap justify-content-center container">
+            <!--gráfico 1-->
+            <div>
+                <img class="img-grafico-setor" src="assets\images\Atendimentos_por_cidade.png" alt="">
+            </div>
+    
+            <!--gráfico 2-->
+            <div>
+                <img class="img-grafico-setor" src="assets\images\Atendimentos_por_cidade.png" alt="">
+            </div>
+    
+            <!--gráfico 3-->
+            <div>
+                <img class="img-grafico-setor" src="assets\images\Números_de_pessoas_por_bairro-gráfico_de_setor.png" alt="">
+            </div>
+    
+            <!--gráfico 4-->
+            <div>
+                <img class="img-grafico-setor" src="assets\images\Números_de_pessoas_por_bairro-gráfico_de_setor.png" alt="">
+            </div>
+        </div>
+    </section>
+</div>
 
+<!--Rodapé-->
 <footer class="d-flex flex-column justify-content-center align-items-center p-4">
-    <p>© 2024 SaúdeAlerta - Sistema de Monitoramento Epidemiológico</p>
+    <p> &copy; 2024 SaúdeAlerta - Sistema de Monitoramento Epidemiológico</p>
     <p>Desenvolvido para promover a saúde pública e prevenção de doenças</p>
 </footer>

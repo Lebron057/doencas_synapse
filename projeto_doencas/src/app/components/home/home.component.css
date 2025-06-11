@@ -3,10 +3,18 @@
     padding: 0px;
 }
 
+.div-body {
+    background: #e6eeff;
+    background: linear-gradient(300deg, rgba(230, 238, 255, 1) 0%, rgba(255, 255, 255, 1) 50%, rgba(230, 238, 255, 1) 100%);
+}
+
 nav {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* sombra mais visível */
+    z-index: 10;
+    position: relative;
 }
 
 .div_icon_location {
@@ -69,6 +77,11 @@ footer {
     font-weight: 400
 }
 
+.div-btn {
+    width: 100%;
+    max-width: 300px;
+}
+
 .img-whats {
     width: 30px;
     height: 30px;
@@ -77,4 +90,5 @@ footer {
 .link-whats {
     color: white;
     text-decoration: none;
+    font-size: large;
 }
